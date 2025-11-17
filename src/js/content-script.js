@@ -55,7 +55,7 @@ function checkParent(parent, child) {
 
 getWords().then((data) => {
   replamentCount = 0;
-  var el = document.querySelector("article");
+  var el = document.body;
   var elements = document.getElementsByTagName("*");
 
   for (let i = 0; i < elements.length; i++) {
