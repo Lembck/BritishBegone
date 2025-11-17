@@ -11,10 +11,10 @@
   },
   "action": {},
   "web_accessible_resources": [
-    {
-        "resources": [ "data/spelling_data.json" ],
-        "matches": ["https://www.theregister.com/*"]
-      }],
+  {
+      "resources": [ "data/spelling_data.json" ],
+      "matches": ["<all_urls>"]
+    }],
   "icons": {
     "16": "images/spell16.png",
     "32": "images/spell32.png",
