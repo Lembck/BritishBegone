@@ -9,7 +9,9 @@
   "background": {
     "service_worker": "js/background.js"
   },
-  "action": {},
+  "action": {
+    "default_title": "Click to convert British to American spelling"
+  },
   "web_accessible_resources": [
   {
       "resources": [ "data/spelling_data.json" ],
