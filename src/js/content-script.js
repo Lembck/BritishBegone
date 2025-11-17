@@ -23,10 +23,10 @@ function scanWords(str, words) {
     .map((item) => {
       if (item !== "") {
         for (let k = 0; k < words.length; k++) {
-          if (item.toLowerCase() === words[k][1]) {
-            console.log(`Replaced ${words[k][1]} with ${words[k][0]}`);
+          if (item.toLowerCase() === words[k][0]) {
+            console.log(`Replaced ${words[k][0]} with ${words[k][1]}`);
             replamentCount++;
-            return matchCase(words[k][0], item);
+            return matchCase(words[k][1], item);
           }
         }
         return item;
